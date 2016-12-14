@@ -26,7 +26,7 @@ $(function (){
             url: 'http://35.165.226.154:3030/api/iteam',
             data: new_spot,
             success: function(newSpot){
-                window.location.replace("/view_orders");
+                window.location.replace("/buy");
             },
             error: function() {
                 alert('error saving order');
