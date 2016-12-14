@@ -39,5 +39,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 	app.use('/api', require('./routes/api'));
 
 // Start server
-app.listen(9000);
-console.log('API is running on port 9000');
+app.listen(3030);
+console.log('API is running on port 3030');
