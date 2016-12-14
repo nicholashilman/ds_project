@@ -20,9 +20,6 @@ $(function (){
                                     '<div class="col-lg-2 col-xs-12 listing-title">' +
                                         '<h4>' + spot.title + '</h4>' + 
                                     '</div>'+
-                                    '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.price + '</h4>' + 
-                                    '</div>'+
                                 '</div>' );
             });
         },
