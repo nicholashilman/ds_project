@@ -5,18 +5,13 @@ var mongoose = restful.mongoose;
 
 // Schema
 var spotSchema_pending = new mongoose.Schema({
-	firstName: String,
-	lastName: String,
+	first: String,
+	last: String,
 	email: String,
-	phoneNumber: String,
+	phone: String,
 	title: String,
-	type: String,
-	adress: String,
 	description: String,
-	start: String,
-	end: String,
-	rate: String,
-	additionalInfro: String
+	price: String
 });
 
 // Return model
