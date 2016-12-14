@@ -4,7 +4,7 @@ var restful = require('node-restful');
 var mongoose = restful.mongoose;
 
 // Schema
-var spotSchema_pending = new mongoose.Schema({
+var iteam = new mongoose.Schema({
 	first: String,
 	last: String,
 	email: String,
