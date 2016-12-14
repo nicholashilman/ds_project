@@ -8,7 +8,8 @@ $(function (){
         success: function(spotz) {
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
-                                    '<h3> Person Listing :' + spot.first + " " + spot.last + '</h3>' +
+                                    '<h4> Person Listing : ' + spot.first + " " + spot.last + '</h4>' +
+                                    '<h4> Contact Info :  ' + spot.email + '</h4>' +  
                                '</div>' 
                 );
             });
