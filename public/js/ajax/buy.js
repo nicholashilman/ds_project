@@ -10,7 +10,8 @@ $(function (){
                 $spotz.append( '<div class="row parking-listings">' +
                                     '<h4> Person Listing : ' + spot.first + " " + spot.last + '</h4>' +
                                     '<h4> Contact Info :  ' + spot.phone + '</h4>' +
-                                    '<h4> Iteam Description :  ' + spot.email + '</h4>' +   
+                                    '<h4> Price :  ' + spot.email + '</h4>' +
+                                    '<h4> Iteam Description :  ' + spot.title + '</h4>' +   
                                '</div>' 
                 );
             });
