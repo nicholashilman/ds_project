@@ -9,7 +9,7 @@ var parseUrlEnconded = bodyParser.urlencoded({
 });
 
 // MongoDB
-mongoose.connect('mongodb://localhost/order');
+mongoose.connect('mongodb://localhost/parking_bee');
 
 // Express
 var app = express();
