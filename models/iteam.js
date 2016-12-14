@@ -10,7 +10,6 @@ var iteam = new mongoose.Schema({
 	email: String,
 	phone: String,
 	title: String,
-	description: String,
 	price: String
 });
 
