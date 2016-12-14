@@ -8,19 +8,9 @@ $(function (){
         success: function(spotz) {
             $.each(spotz, function(i, spot) {
                 $spotz.append( '<div class="row parking-listings">' +
-                                    '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.first + " " + spot.last + '</h4>' + 
-                                    '</div>'+
-                                    '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.email + '</h4>' + 
-                                    '</div>'+
-                                    '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.phone + '</h4>' + 
-                                    '</div>'+
-                                    '<div class="col-lg-2 col-xs-12 listing-title">' +
-                                        '<h4>' + spot.title + '</h4>' + 
-                                    '</div>'+
-                                '</div>' );
+                                    '<h3> Person Listing :' + spot.first + " " + spot.last + '</h3>' +
+                               '</div>' 
+                );
             });
         },
         error: function() {
