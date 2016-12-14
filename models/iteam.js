@@ -15,4 +15,4 @@ var spotSchema_pending = new mongoose.Schema({
 });
 
 // Return model
-module.exports = restful.model('iteam', spotSchema_pending);
+module.exports = restful.model('iteam', iteam);
