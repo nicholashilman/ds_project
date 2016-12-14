@@ -35,7 +35,7 @@ $(function (){
 
         $.ajax({
             type: 'POST',
-            url: 'http://35.161.233.165:9000/api_pending/spots_pending',
+            url: 'http://35.165.226.154:9000/api_pending/spots_pending',
             data: new_spot,
             success: function(newSpot){
                 window.location.replace("/view_orders");
