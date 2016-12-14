@@ -27,16 +27,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routess
 	//EJS Routes 
 	app.get('/', function(req, res) {
-		res.render("order_pizza.ejs");
+		res.render("list.ejs");
 	});
 
-	app.get('/view_orders', function(req, res) {
-		res.render("view_orders.ejs");
+	app.get('/buy', function(req, res) {
+		res.render("buy.ejs");
 	});
 
 //End EJS Routes - sorry really have to put this into a seperate file at some point ...
 
-	app.use('/api_pending', require('./routes/api_pending'));
+	app.use('/api', require('./routes/api'));
 
 // Start server
 app.listen(9000);
